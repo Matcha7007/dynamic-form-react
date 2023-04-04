@@ -1,0 +1,80 @@
+[
+    {
+        "form_id": "FRM0001",
+        "form_name": "Form Dynamic from JSON",
+        "fields": [
+            {
+                "id": "name",
+                "label": "Full name",
+                "placeholder": "enter full name",
+                "type": "text",
+                "value": "",
+                "isMandatory": true,
+                "validations": [
+                    {
+                        "type": "required"
+                    }
+                ]
+            },
+            {
+                "id": "age",
+                "label": "Age",
+                "placeholder": "enter age",
+                "type": "number",
+                "value": "",
+                "isMandatory": true,
+                "validations": [
+                    {
+                        "type": "required"
+                    }
+                ]
+            },
+            {
+                "id": "city",
+                "label": "City",
+                "placeholder": "Select City",
+                "type": "select",
+                "value": "-1",
+                "isMandatory": true,
+                "options": [
+                    { "label": "SMG", "value": 1 },
+                    { "label": "JKT", "value": 2 }
+                ],
+                "validations": []
+            },
+            {
+                "id": "gender",
+                "label": "Gender",
+                "placeholder": "",
+                "type": "radio",
+                "value": "",
+                "isMandatory": true,
+                "options": [
+                    { "label": "Male", "value": 1 },
+                    { "label": "Female", "value": 0 }
+                ],
+                "validations": []
+            },
+            {
+                "id": "active",
+                "label": "Is Active",
+                "placeholder": "",
+                "type": "checkbox",
+                "value": "",
+                "isMandatory": true,
+                "options": [],
+                "validations": []
+            },
+            {
+                "id": "remark",
+                "label": "Remark",
+                "placeholder": "entry remarks",
+                "type": "textarea",
+                "value": "testremark",
+                "isMandatory": true,
+                "options": [],
+                "validations": []
+            }
+        ]
+    }
+]
